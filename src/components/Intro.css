@@ -1,0 +1,13 @@
+.intro {
+    text-align: center;
+}
+
+.intro-header {
+    margin-top: 90px;
+    display: block;
+    width: 100%;
+}
+
+.button {
+    margin-right: 10px;
+}
