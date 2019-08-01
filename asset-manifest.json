@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/FordhamHacks/static/css/main.39c428ce.chunk.css",
-    "main.js": "/FordhamHacks/static/js/main.ccfa557d.chunk.js",
-    "main.js.map": "/FordhamHacks/static/js/main.ccfa557d.chunk.js.map",
+    "main.css": "/FordhamHacks/static/css/main.6ba31e3d.chunk.css",
+    "main.js": "/FordhamHacks/static/js/main.f9b28bdb.chunk.js",
+    "main.js.map": "/FordhamHacks/static/js/main.f9b28bdb.chunk.js.map",
     "runtime~main.js": "/FordhamHacks/static/js/runtime~main.443f5b4c.js",
     "runtime~main.js.map": "/FordhamHacks/static/js/runtime~main.443f5b4c.js.map",
     "static/js/2.4d1294ff.chunk.js": "/FordhamHacks/static/js/2.4d1294ff.chunk.js",
     "static/js/2.4d1294ff.chunk.js.map": "/FordhamHacks/static/js/2.4d1294ff.chunk.js.map",
     "index.html": "/FordhamHacks/index.html",
-    "precache-manifest.53ddfcb473eb6c3644f367015e864747.js": "/FordhamHacks/precache-manifest.53ddfcb473eb6c3644f367015e864747.js",
+    "precache-manifest.16a4332a8cf617c5ed9f1e6b295fa7a5.js": "/FordhamHacks/precache-manifest.16a4332a8cf617c5ed9f1e6b295fa7a5.js",
     "service-worker.js": "/FordhamHacks/service-worker.js",
-    "static/css/main.39c428ce.chunk.css.map": "/FordhamHacks/static/css/main.39c428ce.chunk.css.map"
+    "static/css/main.6ba31e3d.chunk.css.map": "/FordhamHacks/static/css/main.6ba31e3d.chunk.css.map"
   }
 }
