@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://the4thdave.github.io/FordhamHacks",
   "dependencies": {
-    "bootstrap": "^4.3.1",
     "gh-pages": "^2.1.0",
     "react": "^16.8.6",
     "react-collapsible": "^2.6.0",
