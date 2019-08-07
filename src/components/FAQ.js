@@ -4,7 +4,7 @@ import './FAQ.css'
 const Faq = (props) => {
     return (
         <div className="faq">
-            <h2 className="header">FAQ</h2>
+            <h1 className="header neon">FAQ</h1>
             <div className="faq-info">Check back closer to the event
                 date for more information. If you don't see your
                 question, email us at:
@@ -28,7 +28,7 @@ const Faq = (props) => {
             <p className="content">Students in and around NYC!</p>
             <h3 className="sub-header">How do I get there?</h3>
             <p className="content">If you’re coming from the city, the closest train lines are the  A, B, C, D, and 1 trains at 59th St
-                Columbus Circle. Alternatively you can take the B, D, and E trains to 7th Ave and walk a couple of
+                Columbus Circle. Alternatively you can take the B, D, and E trains to 7th Ave, or N, Q, R, and W trains to 57th St and walk a couple of
                 blocks. If you’re coming from outside of the NYC transit system’s reach, your commute may look
                 differently. Unfortunately, we will not be offering travel reimbursement at this time.</p>
             <h3 className="sub-header">Do I need experience?</h3>

@@ -1,10 +1,59 @@
+@font-face {
+  font-family: "Neoneon";
+  src: url("assets/Neoneon.otf") format("opentype");
+}
+
 body {
+  width: 100vw;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  /*background: -webkit-linear-gradient(top, rgb(8, 42, 69) 0%, rgb(11, 16, 20) 100%);*/
+}
+
+	h1 {
+	  font-family: 'Neoneon', sans-serif;
+	  font-size: 2.5rem;
+	  color: #6EFFF0;
+	  display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 0 0 3vw #6EFFF0;
+	}
+
+	h2 {
+	  font-family: 'Neoneon', sans-serif;
+	  font-size: 1.5rem;
+	  color: #fff;
+	}
+
+  h3 {
+    font-family: 'Jura', sans-serif;
+    font-size: 1.3rem;
+    color: #fff;
+  }
+
+  .neon {
+  animation: neon 2s linear infinite;
+  -moz-animation: neon 2s linear infinite;
+  -webkit-animation: neon 2s linear infinite;
+  -o-animation: neon 2s linear infinite;
+}
+
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #0DD9CF, 0 0 3vw #0DD9CF, 0 0 6vw #0DD9CF;
+    color: #0DD9CF;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #0AA8A0, 0 0 1.5vw #0AA8A0, 0 0 5vw #0AA8A0;
+    color: #0AA8A0;
+  }
 }
 
 code {
