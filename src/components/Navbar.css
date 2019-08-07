@@ -16,6 +16,16 @@
     height: 30px;
 }
 
+#ig {
+    position: relative;
+    display: inline;
+    bottom: 5px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+
+}
+
 .nav-left {
     position: fixed;
 }
@@ -47,4 +57,8 @@
     display: inline;
     right: 30px;
     top: 7px;
+}
+
+.nav-link {
+    text-decoration: none;
 }

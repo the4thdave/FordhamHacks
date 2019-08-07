@@ -3,7 +3,7 @@ import './Tracks.css';
 
 const Tracks = (props) => {
     return (
-      <div className="tracks">
+      <div id="tracks">
         <h1 className="header neon">Tracks</h1>
         <div className="wrapper">
           <div className="content">
