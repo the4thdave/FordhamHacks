@@ -1,15 +1,129 @@
-.Collapsible__trigger {
-    display: block;
-    background-color: #777;
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    outline: none;
-    font-size: 15px;
+.tracks {
+  background-color: #0B1014;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+.wrapper {
+   width: 100vw;
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   transition: all 0.3s ease;
 }
 
-.Collapsible__contentInner {
-    padding-left: 20px;
+@media screen and (max-width: 767px) {
+   .wrapper {
+      height: 800px;
+   }
+}
+
+.content {
+   max-width: 1024px;
+   width: 100%;
+   padding: 0 4%;
+   margin-top: 200px;
+   margin-bottom: 100px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+   .content {
+      padding-top: 50px;
+      flex-direction: row;
+      flex-flow: row wrap;
+      height: 100px;
+   }
+}
+
+.card {
+   width: 100%;
+   max-width: 300px;
+   min-width: 220px;
+   height: 240px;
+   background-color: #0B1014;
+   margin: 10px;
+   border-radius: 10px;
+   box-shadow: 0px 5px 5px rgba(155, 125, 225, 0.7);
+   border: 2px solid rgba(7, 7, 7, 0.12);
+   font-size: 16px;
+   transition: all 0.5s ease;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+
+.icon {
+   margin: 0 auto;
+   width: 100%;
+   height: 80px;
+   max-width:80px;
+   background: linear-gradient(90deg, #FF7E7E 0%, #FF4848 40%, rgba(0, 0, 0, 0.28) 60%);
+   border-radius: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   transition: all 0.8s ease;
+   background-position: 0px;
+   background-size: 200px;
+}
+
+.card .title {
+   width: 100%;
+   margin: 0;
+   text-align: center;
+   margin-top: 30px;
+   color: white;
+   font-weight: 600;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+}
+
+.card .text {
+   width: 80%;
+   margin: 0 auto;
+   font-size: 14px;
+   text-align: center;
+   margin-top: 20px;
+   color: white;
+   font-weight: 200;
+   opacity: 0;
+   max-height:0;
+   transition: all 0.3s ease;
+}
+
+.card:hover {
+   height: 345px;
+}
+
+.card:hover .info {
+   height: 80%;
+}
+
+.card:hover .text {
+   transition: all 0.3s ease;
+   opacity: 1;
+   max-height:40px;
+}
+
+.card:hover .icon {
+   background-position: -120px;
+   transition: all 0.3s ease;
+}
+
+.card:hover .icon i {
+   background: linear-gradient(90deg, #FF7E7E, #FF4848);
+   -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+   opacity: 1;
+   transition: all 0.3s ease;
 }

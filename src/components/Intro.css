@@ -1,13 +1,78 @@
 .intro {
-    text-align: center;
+    background-color: #0B1014;
+    height: 100vh;
+    padding-top: 50px;
 }
 
-.intro-header {
-    margin-top: 90px;
-    display: block;
-    width: 100%;
+.date {
+  position: absolute;
+  top: 25%;
+  bottom: 75%;
+  left: 45%;
+}
+
+.location {
+  position: absolute;
+  top: 35%;
+  bottom: 65%;
+  left: 45%;
 }
 
 .button {
-    margin-right: 10px;
+    position: absolute;
+    top: 45%;
+    bottom: 55%;
+    left: 45%;
+    display: inline-block;
+    width: 260px;
+    height: 40px;
+    font-size: 1em;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration:none;
+    font-weight:900;
+    font-size:18px;
+    letter-spacing: 0.08em;
+    z-index: 2;
+}
+
+.button svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.button svg rect {
+    //stroke: #EC0033;
+    stroke-width: 3;
+    stroke-dasharray: 353, 0;
+    stroke-dashoffset: 0;
+    -webkit-transition: all 600ms ease;
+    transition: all 600ms ease;
+}
+
+.button span{
+  background: rgb(255,130,130);
+  background: -moz-linear-gradient(bottom,  rgba(155,125,225,1) 0%, rgba(225,120,237,1) 100%);
+  background: -webkit-linear-gradient(bottom,  rgba(155,125,225,1) 0%,rgba(225,120,237,1) 100%);
+  background: linear-gradient(to top,  rgba(155,125,255,1) 0%,rgba(225,120,237,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9b7de1', endColorstr='#e178ed',GradientType=1);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button:hover svg rect {
+    stroke-width: 3;
+    stroke-dasharray: 200, 550;
+    stroke-dashoffset: 437;
+}
+
+#cityscape {
+  position: absolute;
+  bottom: 0;
+  width: auto;
 }
