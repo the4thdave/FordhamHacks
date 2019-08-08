@@ -27,8 +27,13 @@ body {
 
 	h2 {
 	  font-family: 'Neoneon', sans-serif;
-	  font-size: 1.5rem;
-	  color: #fff;
+    font-size: 2rem;
+	  color: #FD6DF3;
+	  display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 0 0 3vw #FD6DF3;
 	}
 
   h3 {
@@ -37,14 +42,14 @@ body {
     color: #fff;
   }
 
-  .neon {
-  animation: neon 2s linear infinite;
-  -moz-animation: neon 2s linear infinite;
-  -webkit-animation: neon 2s linear infinite;
-  -o-animation: neon 2s linear infinite;
+  .neon-green {
+  animation: neon-green 2s linear infinite;
+  -moz-animation: neon-green 2s linear infinite;
+  -webkit-animation: neon-green 2s linear infinite;
+  -o-animation: neon-green 2s linear infinite;
 }
 
-@keyframes neon {
+@keyframes neon-green {
   0%,
   100% {
     text-shadow: 0 0 1vw #0DD9CF, 0 0 3vw #0DD9CF, 0 0 6vw #0DD9CF;
@@ -54,6 +59,25 @@ body {
     text-shadow: 0 0 .5vw #0AA8A0, 0 0 1.5vw #0AA8A0, 0 0 5vw #0AA8A0;
     color: #0AA8A0;
   }
+}
+
+.neon-fushia {
+animation: neon-fuschia 2s linear infinite;
+-moz-animation: neon-fuschia 2s linear infinite;
+-webkit-animation: neon-fuschia 2s linear infinite;
+-o-animation: neon-fuschia 2s linear infinite;
+}
+
+@keyframes neon-fuschia {
+0%,
+100% {
+  text-shadow: 0 0 1vw #FD6DF3, 0 0 3vw #FD6DF3, 0 0 6vw #FD6DF3;
+  color: #FD6DF3;
+}
+50% {
+  text-shadow: 0 0 .5vw #CF59C7, 0 0 1.5vw #CF59C7, 0 0 5vw #CF59C7;
+  color: #CF59C7;
+}
 }
 
 code {
