@@ -1,6 +1,7 @@
 import React from 'react';
 import facebookLogo from '../assets/f_logo.png'
 import twitterLogo from '../assets/Twitter_Logo_Blue.png'
+import instagramLogo from '../assets/ig_logo.png'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -12,7 +13,21 @@ const Navbar = () => {
                         <img alt="FordhamHacks Logo" src="favicon.png"/>
                     </a>
                 </li>
-                <li><h2 className="nav-title">FordhamHacks</h2></li>
+                <li>
+                    <a className="nav-link" href="#about">
+                        <h2 className="nav-title">About</h2>
+                    </a>
+                </li>
+                <li>
+                    <a className="nav-link" href="#tracks">
+                        <h2 className="nav-title">Tracks</h2>
+                    </a>
+                </li>
+                <li>
+                    <a className="nav-link" href="#faq">
+                        <h2 className="nav-title">FAQ</h2>
+                    </a>
+                </li>
             </ul>
             <ul className="nav-social">
                 <li>
@@ -25,10 +40,12 @@ const Navbar = () => {
                         <img id="twitter" alt="Twitter Logo" src={twitterLogo}/>
                     </a>
                 </li>
+                <li>
+                    <a href="https://www.instagram.com/fordhamhacks/">
+                        <img id="ig" alt="Instagram Logo" src={instagramLogo}/>
+                    </a>
+                </li>
             </ul>
-            <a id="mlh-trust-badge" href="https://mlh.io/seasons/na-2020/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2020-season&utm_content=gray">
-                <img id="mlh" src="https://s3.amazonaws.com/logged-assets/trust-badge/2020/mlh-trust-badge-2020-gray.svg" alt="Major League Hacking 2020 Hackathon Season"/>
-            </a>
         </div>
     );
 };

@@ -1,7 +1,7 @@
 .intro {
     background-color: #0B1014;
     height: 100vh;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .date {
@@ -126,6 +126,6 @@
 
 #cityscape {
   position: absolute;
-  bottom: 0;
+  bottom: -10px;
   width: auto;
 }
