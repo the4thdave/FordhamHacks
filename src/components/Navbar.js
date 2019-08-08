@@ -15,17 +15,17 @@ const Navbar = () => {
                 </li>
                 <li>
                     <a className="nav-link" href="#about">
-                        <h2 className="nav-title">About</h2>
+                        <h4 className="nav-title">About</h4>
                     </a>
                 </li>
                 <li>
                     <a className="nav-link" href="#tracks">
-                        <h2 className="nav-title">Tracks</h2>
+                        <h4 className="nav-title">Tracks</h4>
                     </a>
                 </li>
                 <li>
                     <a className="nav-link" href="#faq">
-                        <h2 className="nav-title">FAQ</h2>
+                        <h4 className="nav-title">FAQ</h4>
                     </a>
                 </li>
             </ul>

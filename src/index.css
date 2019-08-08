@@ -27,7 +27,7 @@ body {
 
 	h2 {
 	  font-family: 'Neoneon', sans-serif;
-    font-size: 2rem;
+    font-size: 2.4rem;
 	  color: #FD6DF3;
 	  display: flex;
     justify-content: center;
@@ -40,6 +40,12 @@ body {
     font-family: 'Jura', sans-serif;
     font-size: 1.3rem;
     color: #fff;
+  }
+
+  h4 {
+    font-family: 'Neoneon', sans-serif;
+    font-size: 1.8rem;
+	  color: #fff;
   }
 
   .neon-green {
@@ -61,7 +67,7 @@ body {
   }
 }
 
-.neon-fushia {
+.neon-fuschia {
 animation: neon-fuschia 2s linear infinite;
 -moz-animation: neon-fuschia 2s linear infinite;
 -webkit-animation: neon-fuschia 2s linear infinite;
@@ -75,8 +81,8 @@ animation: neon-fuschia 2s linear infinite;
   color: #FD6DF3;
 }
 50% {
-  text-shadow: 0 0 .5vw #CF59C7, 0 0 1.5vw #CF59C7, 0 0 5vw #CF59C7;
-  color: #CF59C7;
+  text-shadow: 0 0 .5vw #DB60D3, 0 0 1.5vw #DB60D3, 0 0 5vw #DB60D3;
+  color: #DB60D3;
 }
 }
 

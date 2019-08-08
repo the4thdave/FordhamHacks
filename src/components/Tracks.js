@@ -4,7 +4,7 @@ import './Tracks.css';
 const Tracks = (props) => {
     return (
       <div id="tracks">
-        <h1 className="header neon">Tracks</h1>
+        <h1 className="header neon-green">Tracks</h1>
         <div className="wrapper">
           <div className="content">
             <div className="card">

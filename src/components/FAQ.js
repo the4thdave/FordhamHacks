@@ -4,7 +4,7 @@ import './FAQ.css'
 const Faq = (props) => {
     return (
         <div id="faq">
-            <h1 className="header neon">FAQ</h1>
+            <h1 className="header neon-green">FAQ</h1>
             <div className="faq-info">Check back closer to the event
                 date for more information. If you don't see your
                 question, email us at:

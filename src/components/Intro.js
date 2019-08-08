@@ -5,8 +5,8 @@ import cityscape from '../assets/fordhamhackscity.svg'
 const Intro = (props) => {
     return (
         <div className="intro">
-            <h2 className="neon date">January 25-26, 2020</h2>
-            <h2 className="neon location">Fordham University Lincoln Center</h2>
+            <h2 className="date neon-fuschia">January 25-26, 2020</h2>
+            <h2 className="location neon-fuschia">Fordham University Lincoln Center</h2>
             <a href="" class="button1">
               <svg width="275" height="50">
                 <defs>
