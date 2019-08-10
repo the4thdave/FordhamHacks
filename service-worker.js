@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/FordhamHacks/precache-manifest.1995cfca5cf0988c340a8300ee952fc7.js"
+  "/FordhamHacks/precache-manifest.371973856bfac7635132d397b2cb1043.js"
 );
 
 self.addEventListener('message', (event) => {
