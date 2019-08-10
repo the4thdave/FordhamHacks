@@ -5,7 +5,7 @@ const About = props => {
   return (
     <div id="about">
       <h1 className="header neon-green">Our Mission</h1>
-      <p className="content">
+      <p className="content about-content">
         FordhamHacks is Fordham University’s first-ever 24-hour hackathon hosted
         at the heart of NYC, the Lincoln Center campus, on January 25-26, 2020.
         Drawing inspiration from Fordham being a liberal arts school, the
