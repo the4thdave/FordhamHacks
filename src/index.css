@@ -11,52 +11,86 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #fff;
-  /*background: -webkit-linear-gradient(top, rgb(8, 42, 69) 0%, rgb(11, 16, 20) 100%);*/
+  /*background: -webkit-linear-gradient(top, rgb(8,42,69) 0%, rgb(11,16,20) 100%);*/
 }
 
-	h1 {
-	  font-family: 'Neoneon', sans-serif;
-	  font-size: 2.5rem;
-	  color: #6EFFF0;
-	  display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    text-shadow: 0 0 3vw #6EFFF0;
-	}
-
-	h2 {
-	  font-family: 'Neoneon', sans-serif;
-	  font-size: 1.5rem;
-	  color: #fff;
-	}
-
-  h3 {
-    font-family: 'Jura', sans-serif;
-    font-size: 1.3rem;
-    color: #fff;
-  }
-
-  .neon {
-  animation: neon 2s linear infinite;
-  -moz-animation: neon 2s linear infinite;
-  -webkit-animation: neon 2s linear infinite;
-  -o-animation: neon 2s linear infinite;
+h1 {
+  display: flex;
+  font-family: 'Neoneon', sans-serif;
+  font-size: 2.5rem;
+  color: #6efff0;
+  text-align: center;
+  text-shadow: 0 0 3vw #6efff0;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes neon {
-  0%,
-  100% {
-    text-shadow: 0 0 1vw #0DD9CF, 0 0 3vw #0DD9CF, 0 0 6vw #0DD9CF;
-    color: #0DD9CF;
-  }
-  50% {
-    text-shadow: 0 0 .5vw #0AA8A0, 0 0 1.5vw #0AA8A0, 0 0 5vw #0AA8A0;
-    color: #0AA8A0;
-  }
+h2 {
+  display: flex;
+  font-family: 'Neoneon', sans-serif;
+  font-size: 2.4rem;
+  color: #fd6df3;
+  text-align: center;
+  text-shadow: 0 0 3vw #fd6df3;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  font-family: 'Jura', sans-serif;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+h4 {
+  font-family: 'Neoneon', sans-serif;
+  font-size: 1.8rem;
+  color: #fff;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.neon-green {
+  animation: neon-green 2s linear infinite;
+  -moz-animation: neon-green 2s linear infinite;
+  -webkit-animation: neon-green 2s linear infinite;
+  -o-animation: neon-green 2s linear infinite;
+}
+
+@keyframes neon-green {
+
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #0dd9cf, 0 0 3vw #0dd9cf, 0 0 6vw #0dd9cf;
+    color: #0dd9cf;
+  }
+
+  50% {
+    text-shadow: 0 0 .5vw #0aa8a0, 0 0 1.5vw #0aa8a0, 0 0 5vw #0aa8a0;
+    color: #0aa8a0;
+  }
+}
+
+.neon-fuschia {
+  animation: neon-fuschia 2s linear infinite;
+  -moz-animation: neon-fuschia 2s linear infinite;
+  -webkit-animation: neon-fuschia 2s linear infinite;
+  -o-animation: neon-fuschia 2s linear infinite;
+}
+
+@keyframes neon-fuschia {
+
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #fd6df3, 0 0 3vw #fd6df3, 0 0 6vw #fd6df3;
+    color: #fd6df3;
+  }
+
+  50% {
+    text-shadow: 0 0 .5vw #db60d3, 0 0 1.5vw #db60d3, 0 0 5vw #db60d3;
+    color: #db60d3;
+  }
 }
