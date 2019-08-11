@@ -12,3 +12,8 @@
   padding-left: 7px;
   color: #fd6df3;
 }
+
+.question, .answer {
+  padding-left: 50px;
+}
+

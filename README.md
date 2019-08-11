@@ -3,7 +3,7 @@ This website was created to spread word about the FordhamHacks 2020 Hackathon. T
 
 TODO:
 1. Make website responsive
-2. Style headers, content, and buttons
-3. Add schedule to the page
-4. Create and link application form
-5. Link sponsorship pdf
+2. Add schedule to the page
+3. Create and link application form
+4. Link sponsorship pdf
+5. Add sponsors section

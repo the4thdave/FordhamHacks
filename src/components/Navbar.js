@@ -1,6 +1,6 @@
 import React from "react";
-import facebookLogo from "../assets/f_logo.png";
-import twitterLogo from "../assets/Twitter_Logo_Blue.png";
+import facebookLogo from "../assets/f_logo_white.png";
+import twitterLogo from "../assets/twitter_logo.png";
 import instagramLogo from "../assets/ig_logo.png";
 import "./Navbar.css";
 
