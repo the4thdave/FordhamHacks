@@ -5,28 +5,74 @@
 }
 
 .date {
-  position: relative;
+  position: absolute;
+  top: 25%;
+  bottom: 75%;
+  left: 50%;
   display: flex;
-  top: 10%;
-  bottom: 90%;
-  left: 9.5%;
+}
+
+@media screen and (max-width: 767px) {
+  .date {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .location {
-  position: relative;
-  display: flex;
-  top: 12%;
-  bottom: 88%;
-  left: 20%;
+  position: absolute;
+  top: 32%;
+  bottom: 68%;
+  left: 50%;
+  display: inline;
+}
+
+@media screen and (max-width: 767px) {
+  .location {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Container for buttons */
+.container {
+  position: absolute;
+  top: 45%;
+  bottom: 55%;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /* Pre-Register button */
 .button1 {
-  position: absolute;
-  top: 45%;
-  bottom: 55%;
-  left: 45%;
-  z-index: 2;
+  position: relative;
   display: inline-block;
   width: 260px;
   height: 40px;
@@ -74,11 +120,8 @@
 
 /* Sponsors button */
 .button2 {
-  position: absolute;
-  top: 45%;
-  bottom: 55%;
-  left: 65%;
-  z-index: 2;
+  position: relative;
+  left: 5%;
   display: inline-block;
   width: 260px;
   height: 40px;
@@ -127,7 +170,21 @@
 #logo {
   position: absolute;
   top: 15%;
-  width: 46%;
+  left: 1.5%;
+  display: flex;
+  width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  #logo {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 #cityscape {

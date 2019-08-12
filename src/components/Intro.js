@@ -11,6 +11,7 @@ const Intro = props => {
       <h2 className="location neon-fuschia">
         Fordham University Lincoln Center
       </h2>
+      <div className="container">
       <a href="" class="button1">
         <svg width="275" height="50">
           <defs>
@@ -35,6 +36,7 @@ const Intro = props => {
         </svg>
         <span>Sponsor</span>
       </a>
+      </div>
       <img id="cityscape" src={cityscape} alt="Cityscape" />
     </div>
   );
