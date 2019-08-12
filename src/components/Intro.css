@@ -122,8 +122,14 @@
   stroke-dashoffset: 437;
 }
 
+#logo {
+  position: absolute;
+  top: 15%;
+  width: 46%;
+}
+
 #cityscape {
   position: absolute;
-  bottom: -10px;
-  width: auto;
+  bottom: 0;
+  width: 100%;
 }

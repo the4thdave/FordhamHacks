@@ -1,5 +1,10 @@
 import React from "react";
 import "./Tracks.css";
+import socialIcon from "../assets/socialicon.png";
+import healthIcon from "../assets/healthicon.png";
+import disasterIcon from "../assets/disastericon.png";
+import cybersecurityIcon from "../assets/cybersecurityicon.png";
+import fintechIcon from "../assets/fintechicon.png";
 
 const Tracks = props => {
   return (
@@ -8,6 +13,7 @@ const Tracks = props => {
       <div className="wrapper">
         <div className="content">
           <div className="card">
+            <img className="icon" src={socialIcon} alt="Impact on Diversity & Social Good icon"/>
             <p className="title">Impact on Diversity & Social Good</p>
             <p className="text">
               Help encourage more diversity in STEM or make it easier for others
@@ -16,6 +22,7 @@ const Tracks = props => {
             </p>
           </div>
           <div className="card">
+            <img className="icon" src={healthIcon} alt="Health Tech icon"/>
             <p className="title">Health Tech</p>
             <p className="text">
               Improve the way we live our lives by encouraging healthier
@@ -23,6 +30,7 @@ const Tracks = props => {
             </p>
           </div>
           <div className="card">
+            <img className="icon" src={disasterIcon} alt="Environment & Disaster Relief icon"/>
             <p className="title">Environment & Disaster Relief</p>
             <p className="text">
               With climate change becoming an increasing threat to our world,
@@ -31,6 +39,7 @@ const Tracks = props => {
             </p>
           </div>
           <div className="card">
+            <img className="icon" src={cybersecurityIcon} alt="Cybersecurity icon"/>
             <p className="title">Cybersecurity</p>
             <p className="text">
               In today's climate, security online has become equally, if not
@@ -39,6 +48,7 @@ const Tracks = props => {
             </p>
           </div>
           <div className="card">
+            <img className="icon" src={fintechIcon} alt="FinTech icon"/>
             <p className="title">FinTech</p>
             <p className="text">
               Technology is incredibly useful when it comes to finance, aiding

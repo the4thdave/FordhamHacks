@@ -15,7 +15,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .wrapper { height: 800px; }
+  .wrapper { height: 400px; }
 }
 
 .content {
@@ -33,6 +33,7 @@
 @media screen and (max-width: 767px) {
   .content {
     height: 500px;
+    width: 100%;
     padding-top: 50px;
     flex-direction: row;
     flex-flow: row wrap;
@@ -62,13 +63,15 @@
 .icon {
   display: flex;
   width: 100%;
-  max-width: 80px;
-  height: 80px;
+  max-width: 70px;
+  height: 70px;
   margin: 0 auto;
+  padding: 7px;
   color: white;
-  background: linear-gradient(90deg, #ff7e7e 0%, #ff4848 40%, rgba(0,0,0,0.28) 60%);
+  background: linear-gradient(90deg, #0b1014 10%, #2e3b3a 40%, rgba(15,13,13,0.28) 60%);
   background-position: 0px;
-  background-size: 200px;
+  background-size: 300px;
+  border: 1px solid #a4ebe7;
   border-radius: 100%;
   justify-content: center;
   align-items: center;
@@ -78,10 +81,8 @@
 
 .card .title {
   width: 100%;
-  margin: 0;
-  margin-top: 30px;
   font-weight: 600;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   color: white;
   text-align: center;
   text-transform: uppercase;
@@ -92,7 +93,7 @@
   width: 80%;
   max-height: 0;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 14px;
   font-weight: 200;
   text-align: center;
@@ -119,7 +120,7 @@
 }
 
 .card:hover .text {
-  max-height: 40px;
+  max-height: 120px;
   transition: all 0.3s ease;
   opacity: 1;
 }

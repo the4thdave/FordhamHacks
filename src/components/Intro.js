@@ -1,10 +1,12 @@
 import React from "react";
 import "./Intro.css";
-import cityscape from "../assets/fordhamhackscity.svg";
+import logo from "../assets/fhlogo.svg";
+import cityscape from "../assets/cityscapedetailpurple.png";
 
 const Intro = props => {
   return (
     <div className="intro">
+      <img id="logo" src={logo} alt="FordhamHacks logo" />
       <h2 className="date neon-fuschia">January 25-26, 2020</h2>
       <h2 className="location neon-fuschia">
         Fordham University Lincoln Center
@@ -31,7 +33,7 @@ const Intro = props => {
           </defs>
           <rect x="2" y="5" rx="10" fill="none" stroke="url(#gradient)" width="260" height="40"></rect>
         </svg>
-        <span>Sponsors</span>
+        <span>Sponsor</span>
       </a>
       <img id="cityscape" src={cityscape} alt="Cityscape" />
     </div>
