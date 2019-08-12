@@ -12,8 +12,6 @@
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease;
-
-  background: #fff;
 }
 
 @media screen and (max-width: 767px) {
@@ -28,8 +26,6 @@
   padding: 1% 10%;
   justify-content: center;
   align-items: center;
-
-  background: #000;
 }
 
 @media screen and (max-width: 767px) {
