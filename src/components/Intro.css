@@ -5,17 +5,19 @@
 }
 
 .date {
-  position: absolute;
-  top: 25%;
-  bottom: 75%;
-  left: 45%;
+  position: relative;
+  display: flex;
+  top: 10%;
+  bottom: 90%;
+  left: 9.5%;
 }
 
 .location {
-  position: absolute;
-  top: 35%;
-  bottom: 65%;
-  left: 45%;
+  position: relative;
+  display: flex;
+  top: 12%;
+  bottom: 88%;
+  left: 20%;
 }
 
 /* Pre-Register button */
