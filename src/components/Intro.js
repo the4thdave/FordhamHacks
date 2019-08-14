@@ -5,7 +5,7 @@ import cityscape from "../assets/cityscapedetailpurple.png";
 
 const Intro = props => {
   return (
-    <div className="intro">
+    <div id="intro">
       <img id="logo" src={logo} alt="FordhamHacks logo" />
       <h2 className="date neon-fuschia">January 25-26, 2020</h2>
       <h2 className="location neon-fuschia">

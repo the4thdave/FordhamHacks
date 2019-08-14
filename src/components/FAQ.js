@@ -14,8 +14,8 @@ const Faq = props => {
       </div>
       <h3 className="sub-header question neon-white">When is it?</h3>
       <p className="answer">
-        Check-in will start at 10am on January 25, 2020 and the closing ceremony
-        ends 2pm on January 26, 2020 (with a full 24 hours allotted for hacking
+        Check-in will start at 10am on January 25, 2020, and the closing ceremony
+        will end at 2pm on January 26, 2020 (with a full 24 hours allotted for hacking
         sandwiched between start and end). We will have the schedule available
         when the event draws closer!
       </p>
@@ -28,12 +28,12 @@ const Faq = props => {
         Nope! We will provide space to hack/sleep, power/wifi access, food,
         snacks, drinks, swag, workshops, and memories of that time you spent a
         weekend learning with cool people at the center of the best city in the
-        world
+        world.
       </p>
       <h3 className="sub-header question neon-white">What should I bring?</h3>
       <p className="answer">
         Just a government issued ID, student ID, laptop, chargers, and a change
-        of clothing + toiletries (if you plan to stay overnight)
+        of clothing and toiletries (if you plan to stay overnight).
       </p>
       <h3 className="sub-header question neon-white">Who's coming?</h3>
       <p className="answer">Students in and around NYC!</p>
@@ -43,7 +43,7 @@ const Faq = props => {
         D, and 1 trains at 59th St Columbus Circle. Alternatively you can take
         the B, D, and E trains to 7th Ave, or N, Q, R, and W trains to 57th St
         and walk a couple of blocks. If you’re coming from outside of the NYC
-        transit system’s reach, your commute may look differently.
+        transit system’s reach, your commute may look different.
         Unfortunately, we will not be offering travel reimbursement at this
         time.
       </p>
@@ -55,8 +55,8 @@ const Faq = props => {
       </p>
       <h3 className="sub-header question neon-white">How do teams work?</h3>
       <p className="answer">
-        Teams of up to 4 students can be formed- if you prefer working by
-        yourself that is allowed too!
+        Teams of up to 4 students can be formed - if you prefer working by
+        yourself, that is allowed too!
       </p>
       <h3 className="sub-header question neon-white">
         What if I want to have a team but don’t know anyone?
@@ -67,11 +67,11 @@ const Faq = props => {
       </p>
       <h3 className="sub-header question neon-white">What are the tracks?</h3>
       <p className="answer">
-        The tracks are: Impact on Diversity and Social Good, Health Tech,
-        Environment & Disaster Relief, Cybersecurity and Fintech. FordhamHacks
+        The tracks are: Impact on Diversity & Social Good, Health Tech,
+        Environment & Disaster Relief, Cybersecurity, and Fintech. FordhamHacks
         encourages hacking for impact and our team chose these tracks because
         they each have plenty of problems to solve and things that can be
-        improved on!
+        improved upon!
       </p>
     </div>
   );

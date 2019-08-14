@@ -21,8 +21,7 @@
 .content {
   display: flex;
   width: 100vw;
-  margin: 0 20px;
-  padding: 0 10%;
+  padding: 0 4%;
   justify-content: center;
   align-items: center;
 }
@@ -56,6 +55,12 @@
   transition: all 0.3s ease;
 }
 
+@media screen and (max-width: 767px) {
+  .card {
+    height: 180px;
+  }
+}
+
 .icon {
   display: flex;
   width: 100%;
@@ -73,6 +78,13 @@
   align-items: center;
   transition: all 0.8s ease;
 
+}
+
+@media screen and (max-width: 767px) {
+  .icon {
+    max-width: 50px;
+    height: 50px;
+  }
 }
 
 .card .title {
@@ -99,6 +111,12 @@
 }
 
 .card:hover { height: 345px; }
+
+@media screen and (max-width: 767px) {
+  .card:hover {
+    height: 220px;
+  }
+}
 
 .card:hover .info { height: 80%; }
 
