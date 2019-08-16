@@ -2,7 +2,7 @@
   width: 100vw;
   height: 100vh;
   padding-top: 60px;
-  background-color: #0b1014;
+  background: linear-gradient(180deg, rgb(11,16,20) 70%, rgb(119,12,157) 100%);
 }
 
 .date {
