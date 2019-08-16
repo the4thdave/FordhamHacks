@@ -1,13 +1,9 @@
 #intro {
   width: 100vw;
   height: 100vh;
+  margin-top: 70px;
+  margin-bottom: -70px;
   background: linear-gradient(180deg, rgb(11,16,20) 80%, rgb(119,12,157) 100%);
-}
-
-@media screen and (max-width: 767px) {
-  #intro {
-    padding-top: 50px;
-  }
 }
 
 .text-container {
@@ -32,8 +28,6 @@
   }
 }
 
-.date { margin-bottom: 30px; }
-
 @media screen and (max-width: 767px) {
   .date { margin-bottom: -20px; }
 }
@@ -47,9 +41,9 @@
 /* Container for buttons */
 .button-container {
   position: absolute;
-  top: 42%;
-  bottom: 58%;
-  left: 49.25%;
+  top: 43%;
+  bottom: 57%;
+  left: 49.3%;
   z-index: 2;
   display: inline-block;
 }
@@ -62,6 +56,7 @@
     left: 0;
     display: flex;
     flex-direction: column;
+    margin-top: -10px;
     justify-content: center;
     align-items: center;
   }
@@ -83,6 +78,15 @@
   text-transform: uppercase;
   background-color: transparent;
   cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .button1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 .button1 svg {
@@ -132,6 +136,15 @@
   text-transform: uppercase;
   background-color: transparent;
   cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .button2 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 .button2 svg {
@@ -189,4 +202,6 @@
   bottom: 0;
   z-index: 1;
   width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
 }

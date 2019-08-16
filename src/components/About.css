@@ -1,10 +1,21 @@
 #about {
-  margin-top: -30px;
-  padding: 120px 100px 100px;
+  padding: 50px 100px 50px;
   background-color: #0b1014;
+}
+
+@media screen and (max-width: 767px) {
+  #about {
+    padding: 50px 60px 50px;
+  }
 }
 
 .about-content {
   font-size: 1.8rem;
   line-height: 1.3;
+}
+
+@media screen and (max-width: 767px) {
+  .about-content {
+    font-size: 1.5rem;
+  }
 }
