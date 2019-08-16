@@ -1,8 +1,13 @@
 #intro {
   width: 100vw;
   height: 100vh;
-  padding-top: 60px;
-  background: linear-gradient(180deg, rgb(11,16,20) 70%, rgb(119,12,157) 100%);
+  background: linear-gradient(180deg, rgb(11,16,20) 80%, rgb(119,12,157) 100%);
+}
+
+@media screen and (max-width: 767px) {
+  #intro {
+    padding-top: 50px;
+  }
 }
 
 .text-container {
@@ -181,7 +186,7 @@
 
 #cityscape {
   position: absolute;
-  bottom: -30px;
+  bottom: 0;
   z-index: 1;
   width: 100%;
 }
