@@ -56,8 +56,9 @@
   top: 40%;
   bottom: 55%;
   left: 49.25%;
+  z-index: 2;
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 767px) {
@@ -79,7 +80,8 @@
   display: inline-block;
   width: 260px;
   height: 40px;
-  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   font-size: 18px;
   font-weight: 900;
   letter-spacing: 0.08em;
@@ -89,6 +91,15 @@
   text-transform: uppercase;
   background-color: transparent;
   cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .button1 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -25px;
+    margin-bottom: 10px;
+  }
 }
 
 .button1 svg {
@@ -128,7 +139,8 @@
   display: inline-block;
   width: 260px;
   height: 40px;
-  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   font-size: 18px;
   font-weight: 900;
   letter-spacing: 0.08em;
@@ -138,6 +150,15 @@
   text-transform: uppercase;
   background-color: transparent;
   cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .button2 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 
 .button2 svg {

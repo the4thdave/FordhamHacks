@@ -1,7 +1,7 @@
 import React from "react";
 import "./Intro.css";
 import logo from "../assets/fhlogo.svg";
-import cityscape from "../assets/cityscapedetailpurple.png";
+import cityscape from "../assets/purplecityscape.png";
 
 const Intro = props => {
   return (
