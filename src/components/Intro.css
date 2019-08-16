@@ -27,12 +27,8 @@
     align-items: center;
   }
 }
-.date {
-  margin-bottom: -20px;
-}
-@media screen and (max-width: 767px) {
-  .date { margin-bottom: -20px; }
-}
+
+.date { margin-bottom: -20px; }
 
 .location { text-align: left; }
 
