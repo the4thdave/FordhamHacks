@@ -1,8 +1,8 @@
 import React from "react";
-import facebookLogo from "../assets/f_logo_white.png";
-import twitterLogo from "../assets/twitter_logo.png";
-import instagramLogo from "../assets/ig_logo.png";
 import "./Navbar.css";
+import facebookLogo from "../assets/iconmonstr-facebook-5.svg";
+import twitterLogo from "../assets/iconmonstr-twitter-5.svg";
+import instagramLogo from "../assets/iconmonstr-instagram-15.svg";
 
 const Navbar = () => {
   return (

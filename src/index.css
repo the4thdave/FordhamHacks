@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Neoneon";
-  src: url("assets/Neoneon.otf") format("opentype");
+  src: url("fonts/Neoneon.otf") format("opentype");
 }
 
 body {
@@ -10,8 +10,7 @@ body {
   font-size: 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #fff;
-  /*background: -webkit-linear-gradient(top, rgb(8,42,69) 0%, rgb(11,16,20) 100%);*/
+  color: #f5f5f5;
 }
 
 h1 {
@@ -37,15 +36,19 @@ h2 {
 }
 
 h3 {
-  font-family: 'Jura', sans-serif;
+  font-family: "Barlow", sans-serif;
   font-size: 1.3rem;
-  color: #fff;
+  color: #f5f5f5;
 }
 
 h4 {
   font-family: 'Neoneon', sans-serif;
-  font-size: 1.8rem;
-  color: #fff;
+  font-size: 1.5rem;
+  color: #f5f5f5;
+}
+
+h4:hover {
+  color: #f1ff81;
 }
 
 code {
@@ -75,22 +78,43 @@ code {
 }
 
 .neon-fuschia {
-  animation: neon-fuschia 2s linear infinite;
-  -moz-animation: neon-fuschia 2s linear infinite;
-  -webkit-animation: neon-fuschia 2s linear infinite;
-  -o-animation: neon-fuschia 2s linear infinite;
+  animation: neon-fuschia 3s linear infinite;
+  -moz-animation: neon-fuschia 3s linear infinite;
+  -webkit-animation: neon-fuschia 3s linear infinite;
+  -o-animation: neon-fuschia 3s linear infinite;
 }
 
 @keyframes neon-fuschia {
 
   0%,
   100% {
-    text-shadow: 0 0 1vw #fd6df3, 0 0 3vw #fd6df3, 0 0 6vw #fd6df3;
+    text-shadow: 0 0 1vw #fd6df3, 0 0 3vw #fd6df3, 0 0 4vw #fd6df3;
     color: #fd6df3;
   }
 
   50% {
-    text-shadow: 0 0 .5vw #db60d3, 0 0 1.5vw #db60d3, 0 0 5vw #db60d3;
+    text-shadow: 0 0 .5vw #db60d3, 0 0 1.5vw #db60d3, 0 0 3vw #db60d3;
     color: #db60d3;
+  }
+}
+
+.neon-white {
+  animation: neon-white 2s linear infinite;
+  -moz-animation: neon-white 2s linear infinite;
+  -webkit-animation: neon-white 2s linear infinite;
+  -o-animation: neon-white 2s linear infinite;
+}
+
+@keyframes neon-white {
+
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #f5f5f5, 0 0 3vw #f5f5f5, 0 0 6vw #f5f5f5;
+    color: #f5f5f5;
+  }
+
+  50% {
+    text-shadow: 0 0 .5vw #c7c7c7, 0 0 1.5vw #c7c7c7, 0 0 5vw #c7c7c7;
+    color: #c7c7c7;
   }
 }

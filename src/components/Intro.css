@@ -1,33 +1,70 @@
-.intro {
+#intro {
+  width: 100vw;
   height: 100vh;
-  padding-top: 60px;
-  background-color: #0b1014;
+  margin-top: 70px;
+  margin-bottom: -70px;
+  background: linear-gradient(180deg, rgb(11,16,20) 80%, rgb(119,12,157) 100%);
 }
 
-.date {
+.text-container {
   position: absolute;
-  top: 25%;
-  bottom: 75%;
-  left: 45%;
+  top: 20%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.location {
+@media screen and (max-width: 767px) {
+  .text-container {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: -40px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.date { margin-bottom: -20px; }
+
+.location { text-align: left; }
+
+@media screen and (max-width: 767px) {
+  .location { text-align: center; }
+}
+
+/* Container for buttons */
+.button-container {
   position: absolute;
-  top: 35%;
-  bottom: 65%;
-  left: 45%;
+  top: 50%;
+  left: 49.3%;
+  z-index: 2;
+  display: inline-block;
+}
+
+@media screen and (max-width: 767px) {
+  .button-container {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /* Pre-Register button */
 .button1 {
-  position: absolute;
-  top: 45%;
-  bottom: 55%;
-  left: 45%;
-  z-index: 2;
+  position: relative;
   display: inline-block;
   width: 260px;
   height: 40px;
+  margin: 10px;
   font-size: 18px;
   font-weight: 900;
   letter-spacing: 0.08em;
@@ -39,6 +76,15 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 767px) {
+  .button1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 .button1 svg {
   position: absolute;
   top: 0;
@@ -46,7 +92,7 @@
 }
 
 .button1 svg rect {
-  //stroke: #EC0033;
+  //stroke: #ec0033;
   stroke-width: 3;
   stroke-dasharray: 353, 0;
   stroke-dashoffset: 0;
@@ -72,14 +118,11 @@
 
 /* Sponsors button */
 .button2 {
-  position: absolute;
-  top: 45%;
-  bottom: 55%;
-  left: 65%;
-  z-index: 2;
+  position: relative;
   display: inline-block;
   width: 260px;
   height: 40px;
+  margin: 10px;
   font-size: 18px;
   font-weight: 900;
   letter-spacing: 0.08em;
@@ -91,6 +134,15 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 767px) {
+  .button2 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 .button2 svg {
   position: absolute;
   top: 0;
@@ -98,7 +150,7 @@
 }
 
 .button2 svg rect {
-  //stroke: #EC0033;
+  //stroke: #ec0033;
   stroke-width: 3;
   stroke-dasharray: 353, 0;
   stroke-dashoffset: 0;
@@ -122,8 +174,30 @@
   stroke-dashoffset: 437;
 }
 
+#logo {
+  position: absolute;
+  top: 15%;
+  left: 1%;
+  display: flex;
+  width: 50vw;
+}
+
+@media screen and (max-width: 767px) {
+  #logo {
+    position: relative;
+    top: 0;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 #cityscape {
   position: absolute;
-  bottom: -10px;
-  width: auto;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
 }

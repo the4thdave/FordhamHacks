@@ -5,6 +5,7 @@
 }
 
 .faq-info {
+  padding-right: 20px;
   text-align: center;
 }
 
@@ -13,7 +14,14 @@
   color: #fd6df3;
 }
 
-.question, .answer {
+.question {
   padding-left: 50px;
+  padding-right: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
+.answer {
+  padding-left: 50px;
+  padding-right: 50px;
+}
