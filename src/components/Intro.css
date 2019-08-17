@@ -8,8 +8,7 @@
 
 .text-container {
   position: absolute;
-  top: 25%;
-  bottom: 75%;
+  top: 20%;
   left: 50%;
   display: flex;
   flex-direction: column;
@@ -39,8 +38,7 @@
 /* Container for buttons */
 .button-container {
   position: absolute;
-  top: 43%;
-  bottom: 57%;
+  top: 50%;
   left: 49.3%;
   z-index: 2;
   display: inline-block;
