@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/FordhamHacks/static/css/main.f5df0225.chunk.css",
-    "main.js": "/FordhamHacks/static/js/main.f36c717c.chunk.js",
-    "main.js.map": "/FordhamHacks/static/js/main.f36c717c.chunk.js.map",
+    "main.css": "/FordhamHacks/static/css/main.1d9a7627.chunk.css",
+    "main.js": "/FordhamHacks/static/js/main.2b62cbca.chunk.js",
+    "main.js.map": "/FordhamHacks/static/js/main.2b62cbca.chunk.js.map",
     "runtime~main.js": "/FordhamHacks/static/js/runtime~main.443f5b4c.js",
     "runtime~main.js.map": "/FordhamHacks/static/js/runtime~main.443f5b4c.js.map",
-    "static/js/2.07af2cd4.chunk.js": "/FordhamHacks/static/js/2.07af2cd4.chunk.js",
-    "static/js/2.07af2cd4.chunk.js.map": "/FordhamHacks/static/js/2.07af2cd4.chunk.js.map",
+    "static/js/2.c89650d6.chunk.js": "/FordhamHacks/static/js/2.c89650d6.chunk.js",
+    "static/js/2.c89650d6.chunk.js.map": "/FordhamHacks/static/js/2.c89650d6.chunk.js.map",
     "index.html": "/FordhamHacks/index.html",
-    "precache-manifest.371973856bfac7635132d397b2cb1043.js": "/FordhamHacks/precache-manifest.371973856bfac7635132d397b2cb1043.js",
+    "precache-manifest.3d62eb44ed43b85370ce76afdc4ab5d8.js": "/FordhamHacks/precache-manifest.3d62eb44ed43b85370ce76afdc4ab5d8.js",
     "service-worker.js": "/FordhamHacks/service-worker.js",
-    "static/css/main.f5df0225.chunk.css.map": "/FordhamHacks/static/css/main.f5df0225.chunk.css.map",
-    "static/media/index.css": "/FordhamHacks/static/media/Neoneon.696ade59.otf",
-    "static/media/fordhamhackscity.svg": "/FordhamHacks/static/media/fordhamhackscity.684a332a.svg",
-    "static/media/ig_logo.png": "/FordhamHacks/static/media/ig_logo.0e84d592.png"
+    "static/css/main.1d9a7627.chunk.css.map": "/FordhamHacks/static/css/main.1d9a7627.chunk.css.map",
+    "static/media/Neoneon.otf": "/FordhamHacks/static/media/Neoneon.696ade59.otf",
+    "static/media/cybersecurityicon.png": "/FordhamHacks/static/media/cybersecurityicon.8f5089ac.png",
+    "static/media/disastericon.png": "/FordhamHacks/static/media/disastericon.14732252.png",
+    "static/media/fhlogo.svg": "/FordhamHacks/static/media/fhlogo.59fc43db.svg",
+    "static/media/fintechicon.png": "/FordhamHacks/static/media/fintechicon.7db97b4f.png",
+    "static/media/healthicon.png": "/FordhamHacks/static/media/healthicon.01c1a9e8.png",
+    "static/media/iconmonstr-facebook-5.svg": "/FordhamHacks/static/media/iconmonstr-facebook-5.4c6310fc.svg",
+    "static/media/iconmonstr-instagram-15.svg": "/FordhamHacks/static/media/iconmonstr-instagram-15.87f48f84.svg",
+    "static/media/iconmonstr-twitter-5.svg": "/FordhamHacks/static/media/iconmonstr-twitter-5.2b643859.svg",
+    "static/media/purplecityscape.png": "/FordhamHacks/static/media/purplecityscape.4b974d57.png",
+    "static/media/socialicon.png": "/FordhamHacks/static/media/socialicon.161479ed.png"
   }
 }
