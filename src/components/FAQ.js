@@ -8,7 +8,7 @@ const Faq = props => {
       <div className="faq-info">
         Check back closer to the event date for more information. If you don't
         see your question, email us at:
-        <a className="email" href="mailto:hackathon@fordham.edu">
+        <a className="email" href="mailto:hiHackathon@fordham.edu">
           hackathon@fordham.edu
         </a>
       </div>
