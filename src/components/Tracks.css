@@ -84,9 +84,9 @@
   transition: all 0.3s ease;
 }
 
-.card:hover { height: 345px; }
+.card:hover { height: 400px; }
 
-.card:hover .info { height: 80%; }
+.card:hover .info { height: 85%; }
 
 .card:hover .icon {
   background-position: -120px;
