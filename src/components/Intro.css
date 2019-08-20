@@ -3,65 +3,33 @@
   height: 100vh;
   margin-top: 70px;
   margin-bottom: -70px;
-  background: linear-gradient(180deg, rgb(11,16,20) 75%, rgb(119,12,157) 100%);
+  background: linear-gradient(180deg, rgb(11,16,20) 80%, rgb(119,12,157) 100%);
 }
 
 .text-container {
   position: absolute;
-  top: 25%;
-  bottom: 75%;
+  top: 20%;
   left: 50%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-@media screen and (max-width: 767px) {
-  .text-container {
-    position: relative;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    margin-top: -40px;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
 .date { margin-bottom: -20px; }
 
 .location { text-align: left; }
 
-@media screen and (max-width: 767px) {
-  .location { text-align: center; }
-}
-
 /* Container for buttons */
 .button-container {
   position: absolute;
-  top: 43%;
-  bottom: 57%;
+  top: 40%;
   left: 49.3%;
   z-index: 2;
   display: inline-block;
 }
 
-@media screen and (max-width: 767px) {
-  .button-container {
-    position: relative;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    margin-top: -10px;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-/* Pre-Register button */
-.button1 {
+/* Buttons */
+.button1, .button2 {
   position: relative;
   display: inline-block;
   width: 260px;
@@ -76,15 +44,6 @@
   text-transform: uppercase;
   background-color: transparent;
   cursor: pointer;
-}
-
-@media screen and (max-width: 767px) {
-  .button1 {
-    margin-top: 0;
-    margin-bottom: 10px;
-    margin-left: 0;
-    margin-right: 0;
-  }
 }
 
 .button1 svg {
@@ -116,33 +75,6 @@
   stroke-width: 3;
   stroke-dasharray: 200, 550;
   stroke-dashoffset: 437;
-}
-
-/* Sponsors button */
-.button2 {
-  position: relative;
-  display: inline-block;
-  width: 260px;
-  height: 40px;
-  margin: 10px;
-  font-size: 18px;
-  font-weight: 900;
-  letter-spacing: 0.08em;
-  line-height: 50px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 767px) {
-  .button2 {
-    margin-top: 10px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-  }
 }
 
 .button2 svg {
@@ -184,17 +116,6 @@
   width: 50vw;
 }
 
-@media screen and (max-width: 767px) {
-  #logo {
-    position: relative;
-    top: 0;
-    display: flex;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
 #cityscape {
   position: absolute;
   bottom: 0;
@@ -202,4 +123,160 @@
   width: 100%;
   justify-content: flex-end;
   align-items: flex-end;
+}
+
+/* Media Queries */
+@media screen and (max-width: 324px) {
+  #intro { height: 90%; }
+
+  .text-container {
+    position: relative;
+    top: -2rem;
+    left: 10%;
+    display: block;
+    width: 80vw;
+  }
+
+  .date { margin-bottom: -1rem; }
+
+  .location { text-align: center; }
+
+  .button-container {
+    position: relative;
+    top: -3rem;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #logo {
+    position: relative;
+    top: 0;
+    display: block;
+    width: 98vw;
+  }
+
+  #cityscape {
+    position: relative;
+    top: -4rem;
+  }
+}
+
+
+/* Add navbar to each media query except 1024 */
+@media screen and (min-width: 325px) and (max-width: 426px) {
+  #intro { height: 90%; }
+
+  .text-container {
+    position: relative;
+    top: -2rem;
+    left: 10%;
+    display: block;
+    width: 80vw;
+  }
+
+  .date {
+    margin-bottom: -1rem;
+  }
+
+  .location {
+    text-align: center;
+  }
+
+  .button-container {
+    position: relative;
+    top: -3rem;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #logo {
+    position: relative;
+    top: 0;
+    display: block;
+    width: 98vw;
+  }
+
+  #cityscape {
+    position: relative;
+    top: -4rem;
+  }
+}
+
+@media screen and (min-width: 427px) and (max-width: 768px) {
+  .text-container {
+    position: relative;
+    display: block;
+    flex-direction: column;
+    top: -2rem;
+    left: 10%;
+    width: 80vw;
+  }
+
+  .location { text-align: center; }
+
+  .button-container {
+    position: relative;
+    top: -3rem;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #logo {
+    position: relative;
+    top: 0;
+    left: 25%;
+    display: flex;
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .text-container {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .button-container {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1365px) and (min-width: 1025px) {
+  #logo {
+    height: 50%;
+  }
+
+  #cityscape {
+    height: 50%;
+  }
+
+  .button-container {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  #logo {
+    height: 50%;
+  }
+
+  #cityscape {
+    height: 50%;
+  }
 }
