@@ -15,51 +15,21 @@
   align-items: flex-start;
 }
 
-@media screen and (max-width: 767px) {
-  .text-container {
-    position: relative;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    margin-top: -40px;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
 .date { margin-bottom: -20px; }
 
 .location { text-align: left; }
 
-@media screen and (max-width: 767px) {
-  .location { text-align: center; }
-}
-
 /* Container for buttons */
 .button-container {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 49.3%;
   z-index: 2;
   display: inline-block;
 }
 
-@media screen and (max-width: 767px) {
-  .button-container {
-    position: relative;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    margin-top: -10px;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-/* Pre-Register button */
-.button1 {
+/* Buttons */
+.button1, .button2 {
   position: relative;
   display: inline-block;
   width: 260px;
@@ -74,15 +44,6 @@
   text-transform: uppercase;
   background-color: transparent;
   cursor: pointer;
-}
-
-@media screen and (max-width: 767px) {
-  .button1 {
-    margin-top: 0;
-    margin-bottom: 10px;
-    margin-left: 0;
-    margin-right: 0;
-  }
 }
 
 .button1 svg {
@@ -114,33 +75,6 @@
   stroke-width: 3;
   stroke-dasharray: 200, 550;
   stroke-dashoffset: 437;
-}
-
-/* Sponsors button */
-.button2 {
-  position: relative;
-  display: inline-block;
-  width: 260px;
-  height: 40px;
-  margin: 10px;
-  font-size: 18px;
-  font-weight: 900;
-  letter-spacing: 0.08em;
-  line-height: 50px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 767px) {
-  .button2 {
-    margin-top: 10px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-  }
 }
 
 .button2 svg {
@@ -182,17 +116,6 @@
   width: 50vw;
 }
 
-@media screen and (max-width: 767px) {
-  #logo {
-    position: relative;
-    top: 0;
-    display: flex;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
 #cityscape {
   position: absolute;
   bottom: 0;
@@ -200,4 +123,150 @@
   width: 100%;
   justify-content: flex-end;
   align-items: flex-end;
+}
+
+/* Media Queries */
+@media screen and (max-width: 324px) {
+  .text-container {
+    position: relative;
+    display: block;
+    top: -40px;
+    left: 10%;
+    width: 80vw;
+  }
+
+  #logo {
+    position: relative;
+    top: 0;
+    display: block;
+    width: 95vw;
+  }
+
+  .date {
+    margin-bottom: -25px;
+  }
+
+  .location {
+    text-align: center;
+  }
+
+  .button-container {
+    position: relative;
+    top: -50px;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #intro {
+    height: 90%;
+  }
+
+  #cityscape {
+    position: relative;
+    top: -60px;
+  }
+}
+
+@media screen and (min-width: 325px) and (max-width: 426px) {
+  .text-container {
+    position: relative;
+    display: block;
+    top: -40px;
+    left: 10%;
+    width: 80vw;
+  }
+
+  #logo {
+    position: relative;
+    top: 0;
+    display: block;
+    width: 95vw;
+  }
+
+  .date {
+    margin-bottom: -25px;
+  }
+
+  .location {
+    text-align: center;
+  }
+
+  .button-container {
+    position: relative;
+    top: -50px;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #intro {
+    height: 90%;
+  }
+
+  #cityscape {
+    position: relative;
+    top: -60px;
+  }
+}
+
+@media screen and (min-width: 427px) and (max-width: 768px) {
+  .text-container {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .location { text-align: center; }
+
+  .button-container {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button1 {
+    margin: 0 0 10px 0;
+  }
+
+  .button2 {
+    margin: 10px 0 0 0;
+  }
+
+  #logo {
+    position: relative;
+    top: 0;
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .text-container {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
