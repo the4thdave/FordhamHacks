@@ -1,6 +1,7 @@
 import React from "react";
 import "./Intro.css";
 import logo from "../assets/fhlogo.svg";
+import sponsorship from "../assets/sponsorship.pdf"
 import cityscape from "../assets/purplecityscape.png";
 
 const Intro = props => {
@@ -26,7 +27,7 @@ const Intro = props => {
               </svg>
               <span>Pre-Register</span>
           </a>
-          <a href="" className="button2">
+          <a href={sponsorship} className="button2">
               <svg width="275" height="50">
                   <defs>
                       <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
