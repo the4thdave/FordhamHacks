@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/FordhamHacks/static/css/main.060b0cae.chunk.css",
-    "main.js": "/FordhamHacks/static/js/main.24d72803.chunk.js",
-    "main.js.map": "/FordhamHacks/static/js/main.24d72803.chunk.js.map",
+    "main.css": "/FordhamHacks/static/css/main.6a5f9f3e.chunk.css",
+    "main.js": "/FordhamHacks/static/js/main.84492c46.chunk.js",
+    "main.js.map": "/FordhamHacks/static/js/main.84492c46.chunk.js.map",
     "runtime~main.js": "/FordhamHacks/static/js/runtime~main.443f5b4c.js",
     "runtime~main.js.map": "/FordhamHacks/static/js/runtime~main.443f5b4c.js.map",
-    "static/js/2.c89650d6.chunk.js": "/FordhamHacks/static/js/2.c89650d6.chunk.js",
-    "static/js/2.c89650d6.chunk.js.map": "/FordhamHacks/static/js/2.c89650d6.chunk.js.map",
+    "static/js/2.5fdfb831.chunk.js": "/FordhamHacks/static/js/2.5fdfb831.chunk.js",
+    "static/js/2.5fdfb831.chunk.js.map": "/FordhamHacks/static/js/2.5fdfb831.chunk.js.map",
     "index.html": "/FordhamHacks/index.html",
-    "precache-manifest.2abc0855c4db6597da0d915dbd8c5e95.js": "/FordhamHacks/precache-manifest.2abc0855c4db6597da0d915dbd8c5e95.js",
+    "precache-manifest.76d5552199798066ff3d4fe5f1cbdb5e.js": "/FordhamHacks/precache-manifest.76d5552199798066ff3d4fe5f1cbdb5e.js",
     "service-worker.js": "/FordhamHacks/service-worker.js",
-    "static/css/main.060b0cae.chunk.css.map": "/FordhamHacks/static/css/main.060b0cae.chunk.css.map",
+    "static/css/main.6a5f9f3e.chunk.css.map": "/FordhamHacks/static/css/main.6a5f9f3e.chunk.css.map",
     "static/media/Neoneon.otf": "/FordhamHacks/static/media/Neoneon.696ade59.otf",
     "static/media/cybersecurityicon.png": "/FordhamHacks/static/media/cybersecurityicon.8f5089ac.png",
     "static/media/disastericon.png": "/FordhamHacks/static/media/disastericon.14732252.png",
@@ -21,6 +21,7 @@
     "static/media/iconmonstr-instagram-15.svg": "/FordhamHacks/static/media/iconmonstr-instagram-15.87f48f84.svg",
     "static/media/iconmonstr-twitter-5.svg": "/FordhamHacks/static/media/iconmonstr-twitter-5.2b643859.svg",
     "static/media/purplecityscape.png": "/FordhamHacks/static/media/purplecityscape.4b974d57.png",
-    "static/media/socialicon.png": "/FordhamHacks/static/media/socialicon.161479ed.png"
+    "static/media/socialicon.png": "/FordhamHacks/static/media/socialicon.161479ed.png",
+    "static/media/sponsorship.pdf": "/FordhamHacks/static/media/sponsorship.33754b71.pdf"
   }
 }
