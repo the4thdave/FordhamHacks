@@ -25,3 +25,10 @@
   padding-left: 50px;
   padding-right: 50px;
 }
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .faq-info {
+    padding-left: 15px;
+  }
+}

@@ -18,15 +18,9 @@
   filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(149deg) brightness(108%) contrast(101%);
 }
 
-@media screen and (max-width: 767px) {
-  #fb {
-    bottom: 0;
-    width: 1.5rem;
-    height: 1.5rem;
-  }
+#fb:hover {
+  filter: brightness(0) saturate(100%) invert(93%) sepia(14%) saturate(1293%) hue-rotate(14deg) brightness(104%) contrast(105%);
 }
-
-#fb:hover { filter: brightness(0) saturate(100%) invert(93%) sepia(14%) saturate(1293%) hue-rotate(14deg) brightness(104%) contrast(105%); }
 
 #twitter {
   position: relative;
@@ -36,14 +30,6 @@
   width: 1.875rem;
   height: 1.875rem;
   filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(149deg) brightness(108%) contrast(101%);
-}
-
-@media screen and (max-width: 767px) {
-  #twitter {
-    bottom: 0;
-    width: 1.5rem;
-    height: 1.5rem;
-  }
 }
 
 #twitter:hover { filter: brightness(0) saturate(100%) invert(93%) sepia(14%) saturate(1293%) hue-rotate(14deg) brightness(104%) contrast(105%); }
@@ -58,14 +44,6 @@
   filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(149deg) brightness(108%) contrast(101%);
 }
 
-@media screen and (max-width: 767px) {
-  #ig {
-    bottom: 0;
-    width: 1.5rem;
-    height: 1.5rem;
-  }
-}
-
 #ig:hover { filter: brightness(0) saturate(100%) invert(93%) sepia(14%) saturate(1293%) hue-rotate(14deg) brightness(104%) contrast(105%); }
 
 .nav-left {
@@ -76,12 +54,6 @@
   display: inline;
   padding-left: 5px;
   padding-right: 10px;
-}
-
-@media screen and (max-width: 767px) {
-  .nav-left {
-    padding-left: 5px;
-  }
 }
 
 .nav-title {
@@ -97,12 +69,132 @@
   display: flex;
 }
 
-@media screen and (max-width: 767px) {
+.nav-link {
+  text-decoration: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 324px) {
+  ul.nav-left {
+    position: relative;
+    display: inline;
+    padding-left: 5px;
+    top: 15px;
+  }
+
+  ul.nav-left>li {
+    padding-left: 0;
+    padding-right: 10px;
+  }
+
+  .nav-title {
+    position: relative;
+    display: inline;
+  }
+
+  ul.nav-social {
+    position: absolute;
+    display: inline;
+    right: 10px;
+  }
+}
+
+@media screen and (min-width: 325px) and (max-width: 426px) {
+ ul.nav-left {
+   position: relative;
+   top: 15px;
+   display: inline;
+   padding-left: 5px;
+ }
+
+  ul.nav-left>li {
+    padding-left: 0;
+    padding-right: 10px;
+  }
+
+  .nav-title {
+    position: relative;
+    display: inline;
+  }
+
+  ul.nav-social {
+    position: absolute;
+    right: 10px;
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 427px) and (max-width: 768px) {
+
+  .navbar {
+    width: 768px;
+  }
+
+  #fb {
+    bottom: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  #twitter {
+    bottom: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  #ig {
+    bottom: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .nav-left {
+    padding-left: 5px;
+  }
+
   .nav-social {
     right: 10px;
   }
 }
 
-.nav-link {
-  text-decoration: none;
+@media screen and (min-width: 427px) and (max-width: 768px) {
+  #fb {
+    bottom: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  #twitter {
+    bottom: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  #ig {
+    bottom: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .nav-left {
+    padding-left: 5px;
+  }
+
+  .nav-social {
+    right: 10px;
+  }
+
+  .navbar {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .navbar {
+    width: 1024px;
+  }
+
+  .nav-social {
+    right: 100px;
+  }
 }

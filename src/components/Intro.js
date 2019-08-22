@@ -18,8 +18,8 @@ const Intro = props => {
               <svg width="275" height="50">
                   <defs>
                       <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                          <stop offset="0%" stop-color="#E178ED" />
-                          <stop offset="100%" stop-color="#9B7DE1" />
+                          <stop offset="0%" stopColor="#E178ED" />
+                          <stop offset="100%" stopColor="#9B7DE1" />
                       </linearGradient>
                   </defs>
                   <rect x="2" y="5" rx="10" fill="none" stroke="url(#gradient)" width="260" height="40"> </rect>
@@ -30,8 +30,8 @@ const Intro = props => {
               <svg width="275" height="50">
                   <defs>
                       <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                          <stop offset="0%" stop-color="#E178ED" />
-                          <stop offset="100%" stop-color="#9B7DE1" />
+                          <stop offset="0%" stopColor="#e178ed" />
+                          <stop offset="100%" stopColor="#9b7de1" />
                       </linearGradient>
                   </defs>
                   <rect x="2" y="5" rx="10" fill="none" stroke="url(#gradient)" width="260" height="40"> </rect>
