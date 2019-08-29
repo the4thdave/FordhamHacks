@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3196a4344b337309ebb64534543cb26e",
+    "revision": "12992d844e3afa7ab90eaec4da889539",
     "url": "/FordhamHacks/index.html"
   },
   {
-    "revision": "b7406a5f4e199d2fa487",
+    "revision": "ca0190359e0565fc9824",
     "url": "/FordhamHacks/static/css/main.6a5f9f3e.chunk.css"
   },
   {
-    "revision": "25d37b445c2ae7792ece",
-    "url": "/FordhamHacks/static/js/2.5fdfb831.chunk.js"
+    "revision": "603188141ced05b9a38b",
+    "url": "/FordhamHacks/static/js/2.5156c177.chunk.js"
   },
   {
-    "revision": "b7406a5f4e199d2fa487",
-    "url": "/FordhamHacks/static/js/main.84492c46.chunk.js"
+    "revision": "ca0190359e0565fc9824",
+    "url": "/FordhamHacks/static/js/main.60fd226a.chunk.js"
   },
   {
     "revision": "1c2b704897aff003e939",
