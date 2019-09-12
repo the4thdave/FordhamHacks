@@ -16,45 +16,35 @@ const Tracks = props => {
             <img className="icon" src={socialIcon} alt="Impact on Diversity & Social Good icon"/>
             <p className="title">Impact on Diversity & Social Good</p>
             <p className="text">
-              Help encourage more diversity in STEM or make it easier for others
-              to positively impact the world through humanitarian work,
-              education, politics - the possibilities are endless!
+              Encourage diversity in STEM and make it easier to change the world through humanitarianism, education, and politics!
             </p>
           </div>
           <div className="card">
             <img className="icon" src={healthIcon} alt="Health Tech icon"/>
             <p className="title">Health Tech</p>
             <p className="text">
-              Improve the way we live our lives by encouraging healthier
-              physical and mental lifestyle changes.
+              Improve the way we live our lives by encouraging healthier physical and mental lifestyle changes!
             </p>
           </div>
           <div className="card">
             <img className="icon" src={disasterIcon} alt="Environment & Disaster Relief icon"/>
             <p className="title">Environment & Disaster Relief</p>
             <p className="text">
-              With climate change becoming an increasing threat to our world,
-              and natural disasters becoming harder to recover from, build to
-              protect from the more dangerous side of nature!
+              Help slow down the deterioration of the environment and alleviate the effects of natural disasters!
             </p>
           </div>
           <div className="card">
             <img className="icon" src={cybersecurityIcon} alt="Cybersecurity icon"/>
             <p className="title">Cybersecurity</p>
             <p className="text">
-              In today's climate, security online has become equally, if not
-              more important, to protect than security offline. Hack to protect
-              others from getting hacked.
+              Hack to help protect others from getting hacked and prevent data from getting into the wrong hands!
             </p>
           </div>
           <div className="card">
             <img className="icon" src={fintechIcon} alt="FinTech icon"/>
             <p className="title">FinTech</p>
             <p className="text">
-              Technology is incredibly useful when it comes to finance, aiding
-              with stock market risk analysis, cryptocurrency, AI for bank
-              processing, and more. Work to contribute to the ongoing innovation
-              in the finance industry.
+              Contribute to the innovative tech in the finance industry by disrupting the way we handle finance!
             </p>
           </div>
         </div>
