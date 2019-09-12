@@ -3,6 +3,7 @@ import "./Navbar.css";
 import facebookLogo from "../assets/iconmonstr-facebook-5.svg";
 import twitterLogo from "../assets/iconmonstr-twitter-5.svg";
 import instagramLogo from "../assets/iconmonstr-instagram-15.svg";
+import { slide as Menu } from 'react-burger-menu';
 
 const Navbar = () => {
   return (
@@ -46,6 +47,17 @@ const Navbar = () => {
           </a>
         </li>
       </ul>
+      <Menu right>
+        <a className="nav-link-burger" href="#about">
+          <h4 className="nav-title">About</h4>
+        </a>
+        <a className="nav-link-burger" href="#tracks">
+          <h4 className="nav-title">Tracks</h4>
+        </a>
+        <a className="nav-link-burger" href="#faq">
+          <h4 className="nav-title">FAQ</h4>
+        </a>
+      </Menu>
     </div>
   );
 };
