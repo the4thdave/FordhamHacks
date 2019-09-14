@@ -15,7 +15,7 @@ const Intro = props => {
         </h2>
       </div>
       <div className="button-container">
-          <a href="" className="button1">
+          <a href="https://fordhamhacks.typeform.com/to/FvHXJT" className="button1">
               <svg width="275" height="50">
                   <defs>
                       <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">

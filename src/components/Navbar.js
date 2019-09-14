@@ -47,7 +47,7 @@ const Navbar = () => {
           </a>
         </li>
       </ul>
-      <Menu right>
+      <Menu right disableAutoFocus width={250}>
         <a className="nav-link-burger" href="#about">
           <h4 className="nav-title">About</h4>
         </a>
