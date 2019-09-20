@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/FordhamHacks/static/css/main.02eb27d9.chunk.css",
-    "main.js": "/FordhamHacks/static/js/main.ba321750.chunk.js",
-    "main.js.map": "/FordhamHacks/static/js/main.ba321750.chunk.js.map",
+    "main.js": "/FordhamHacks/static/js/main.6e82bd89.chunk.js",
+    "main.js.map": "/FordhamHacks/static/js/main.6e82bd89.chunk.js.map",
     "runtime~main.js": "/FordhamHacks/static/js/runtime~main.443f5b4c.js",
     "runtime~main.js.map": "/FordhamHacks/static/js/runtime~main.443f5b4c.js.map",
     "static/js/2.413aa322.chunk.js": "/FordhamHacks/static/js/2.413aa322.chunk.js",
     "static/js/2.413aa322.chunk.js.map": "/FordhamHacks/static/js/2.413aa322.chunk.js.map",
     "index.html": "/FordhamHacks/index.html",
-    "precache-manifest.bb0a7d7534dd7d65b1f9758026b22b12.js": "/FordhamHacks/precache-manifest.bb0a7d7534dd7d65b1f9758026b22b12.js",
+    "precache-manifest.76a9d1fcbbd4b84f7b5d40f6e1c4cbc1.js": "/FordhamHacks/precache-manifest.76a9d1fcbbd4b84f7b5d40f6e1c4cbc1.js",
     "service-worker.js": "/FordhamHacks/service-worker.js",
     "static/css/main.02eb27d9.chunk.css.map": "/FordhamHacks/static/css/main.02eb27d9.chunk.css.map",
     "static/media/Neoneon.otf": "/FordhamHacks/static/media/Neoneon.696ade59.otf",
@@ -22,6 +22,6 @@
     "static/media/iconmonstr-twitter-5.svg": "/FordhamHacks/static/media/iconmonstr-twitter-5.2b643859.svg",
     "static/media/purplecityscape.png": "/FordhamHacks/static/media/purplecityscape.4b974d57.png",
     "static/media/socialicon.png": "/FordhamHacks/static/media/socialicon.161479ed.png",
-    "static/media/sponsorship.pdf": "/FordhamHacks/static/media/sponsorship.4e1d4406.pdf"
+    "static/media/sponsorship.pdf": "/FordhamHacks/static/media/sponsorship.36310276.pdf"
   }
 }

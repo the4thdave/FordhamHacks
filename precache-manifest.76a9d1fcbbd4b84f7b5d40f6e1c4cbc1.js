@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e2a948a8b8e82e546a5a3129be6d4e7c",
+    "revision": "ac63cc35c0f6bcfe04ccef06fce1bfb0",
     "url": "/FordhamHacks/index.html"
   },
   {
-    "revision": "20fee96ef83e119b926e",
+    "revision": "8ae78487f4bf15cc19d9",
     "url": "/FordhamHacks/static/css/main.02eb27d9.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FordhamHacks/static/js/2.413aa322.chunk.js"
   },
   {
-    "revision": "20fee96ef83e119b926e",
-    "url": "/FordhamHacks/static/js/main.ba321750.chunk.js"
+    "revision": "8ae78487f4bf15cc19d9",
+    "url": "/FordhamHacks/static/js/main.6e82bd89.chunk.js"
   },
   {
     "revision": "1c2b704897aff003e939",
@@ -64,7 +64,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FordhamHacks/static/media/socialicon.161479ed.png"
   },
   {
-    "revision": "4e1d44065044233502b610fb416d7b0d",
-    "url": "/FordhamHacks/static/media/sponsorship.4e1d4406.pdf"
+    "revision": "3631027663a115b93c8352788e18ea44",
+    "url": "/FordhamHacks/static/media/sponsorship.36310276.pdf"
   }
 ]);
