@@ -32,7 +32,7 @@ const Navbar = () => {
       </ul>
       <ul className="nav-social">
         <li>
-          <a href="https://www.facebook.com">
+          <a href="https://www.facebook.com/fordhamhacks2020/">
             <img id="fb" src={facebookLogo} alt="Facebook Logo"/>
           </a>
         </li>
