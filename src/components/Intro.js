@@ -2,6 +2,7 @@ import React from "react";
 import "./Intro.css";
 import fhLogo from "../assets/fhlogo.svg";
 import cityscape from "../assets/purplecityscape.png";
+import sponsorship from "../assets/SponsorshipPacket.pdf";
 
 const Intro = props => {
   return (
