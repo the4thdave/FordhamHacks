@@ -1,13 +1,12 @@
 import React from "react";
 import "./Intro.css";
-import logo from "../assets/fhlogo.svg";
-import sponsorship from "../assets/sponsorship.pdf"
+import fhLogo from "../assets/fhlogo.svg";
 import cityscape from "../assets/purplecityscape.png";
 
 const Intro = props => {
   return (
     <div id="intro">
-      <img id="logo" src={logo} alt="FordhamHacks logo" />
+      <img id="fhLogo" src={fhLogo} alt="FordhamHacks logo" />
       <div className="text-container">
         <h2 className="date neon-fuschia">January 25-26, 2020</h2>
         <h2 className="location neon-fuschia">

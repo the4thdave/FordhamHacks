@@ -1,5 +1,6 @@
 import React from "react";
 import "./FAQ.css";
+import fordhamLogo from "../assets/Fordham-U-Rev.eps";
 
 const Faq = props => {
   return (
@@ -73,6 +74,10 @@ const Faq = props => {
         they each have plenty of problems to solve and things that can be
         improved upon!
       </p>
+
+      <a href="https://www.fordham.edu/">
+        <img id="fordhamLogo" src={fordhamLogo} alt="Fordham University logo" />
+      </a>
     </div>
   );
 };
