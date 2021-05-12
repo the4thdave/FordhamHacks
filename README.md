@@ -14,4 +14,3 @@ Fonts used:
 Neoneon.otf and Google fonts
 
 Animations from Thomas Trinca, Rafaela Lucas, and Marcel Pirnay on Codepen.io
->>>>>>> preview
