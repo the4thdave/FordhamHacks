@@ -1,5 +1,5 @@
 # FordhamHacks
-This website was created to spread word about the FordhamHacks 2020 Hackathon. The website was created using React.js and CSS. Feel free to suggest changes with pull requests.
+This website was created to spread word about the FordhamHacks 2020 Hackathon. The website was created using JavaScript, React.js and CSS.
 
 ## Components
 
